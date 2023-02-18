@@ -4,9 +4,11 @@
     {
         static void Main(string[] args)
         {
-            TempConverter.FahrenheitToCelsius(68);
+            var answer = TempConverter.FahrenheitToCelsius(100.00);
+            Console.WriteLine(answer);
 
-            TempConverter.CelsiusToFahrenheit(68);
+            var answer2 = TempConverter.CelsiusToFahrenheit(0);
+            Console.WriteLine(answer2);
         }
 
         
